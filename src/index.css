@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#currencyGroupSelect {
+  background-color: hsl(155, 45%, 85%);
+  color: hsl(120, 27%, 28%);
+  width: 60%;
+  font-size: large;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  line-height: 1.1;
+}
+
