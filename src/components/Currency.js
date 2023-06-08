@@ -10,7 +10,6 @@ const Currency = () => {
     {name: 'Ruppee', logo: '₹'}
   ];
   const options = currencies.map( (item, index) => {
-    // const optionStyle = {};
     return (
       <option 
         key={index + 1}
@@ -26,7 +25,7 @@ const Currency = () => {
   };
 
   return (
-    <div className='alert alert-secondary'>
+    <div className='alert alert-success'>
       <label htmlFor='currencyGroupSelect' style={{ marginRight: '.5rem'}}>Currency:</label>
       <select className="custom-select" id="currencyGroupSelect" 
               defaultValue={options[0]}
