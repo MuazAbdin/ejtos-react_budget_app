@@ -10,7 +10,7 @@ const Budget = () => {
     let value = event.target.value;
     if (value > BUDGET_CEILING) { alert(`The value cannot exceed £${BUDGET_CEILING}`); }
     else if (value < spending) { 
-      alert(`You cannot reduce the budget value lower than the spending (${spending})`);
+      alert(`You cannot reduce the budget value lower than the spending (${currency}${spending})`);
     }
     else { dispatch({type: 'SET_BUDGET', payload: value}); }
   }

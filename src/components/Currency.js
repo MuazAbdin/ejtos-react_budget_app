@@ -7,7 +7,8 @@ const Currency = () => {
     {name: 'Dollar', logo: '$'},
     {name: 'Pound', logo: '£'},
     {name: 'Euro', logo: '€'},
-    {name: 'Ruppee', logo: '₹'}
+    {name: 'Ruppee', logo: '₹'},
+    {name: 'NIS', logo: '₪'}
   ];
   const options = currencies.map( (item, index) => {
     return (
